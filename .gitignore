@@ -1,20 +1,27 @@
-# 首先忽略所有文件
-*
-
-# 然后取消忽略特定文件
+# 取消忽略特定文件和目录
 !.gitignore
 !app.py
 !requirements.txt
-# 添加其他您想跟踪的文件
+!data/
+!data/**
 
-# 保留原有的忽略规则
+# 忽略虚拟环境
 .env/
 venv/
 env/
+
+# 忽略编译文件
 __pycache__/
 *.pyc
 *.pyo
+
+# 忽略IDE配置文件
 .vscode/
 .idea/
+
+# 忽略其他不必要的文件
 *.log
 *.tmp
+
+# 忽略所有其他文件
+*
