@@ -1,10 +1,13 @@
-你可以帮忙把上述遇到的问题都总结下吗, 把push 到github 的流程也列下来
+# Git和GitHub使用问题总结及推送流程
 
-当然可以！以下是您在使用Git和GitHub过程中遇到的问题的总结，以及将更改推送到GitHub的完整流程。
-遇到的问题总结
-配置姓名和电子邮件地址：
-问题：Git提示您姓名和电子邮件地址未配置。
-解决：使用以下命令配置：
+## 遇到的问题总结
+
+### 1. 配置姓名和电子邮件地址
+
+**问题**：Git提示您姓名和电子邮件地址未配置。
+
+**解决**：使用以下命令配置：
+
 Bash
 推送被拒绝：
 问题：推送时出现“Updates were rejected because the remote contains work that you do not have locally.”的错误。
