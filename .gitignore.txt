@@ -1,0 +1,25 @@
+# 忽略虚拟环境
+.env/
+venv/
+env/
+
+# 忽略编译文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+
+# 忽略其他不必要的文件
+*.log
+*.tmp
+
+# 忽略所有未跟踪的文件
+*
+
+# 允许的文件和目录
+!app.py
+!data/
+!requirements.txt
