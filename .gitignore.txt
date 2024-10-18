@@ -18,8 +18,3 @@ __pycache__/
 
 # 忽略所有未跟踪的文件
 *
-
-# 允许的文件和目录
-!app.py
-!data/
-!requirements.txt

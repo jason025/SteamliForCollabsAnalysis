@@ -1,0 +1,20 @@
+# 首先忽略所有文件
+*
+
+# 然后取消忽略特定文件
+!.gitignore
+!app.py
+!requirements.txt
+# 添加其他您想跟踪的文件
+
+# 保留原有的忽略规则
+.env/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
+*.log
+*.tmp
